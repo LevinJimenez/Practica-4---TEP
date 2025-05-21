@@ -1,0 +1,17 @@
+Crea una función en TypeScript que reciba un arreglo de objetos, donde cada objeto
+representa a una persona con las siguientes propiedades:
+nombre: string
+fechaNacimiento: Date
+La función debe simular (con un pequeño retraso usando setTimeout) el cálculo de la
+edad actual de cada persona, y retornar un nuevo arreglo de objetos con el siguiente
+formato:
+{nombre: string, edad: number}
+
+El cálculo de la edad debe realizarse de forma asíncrona, simulando una operación
+de entrada/salida.
+El resultado debe ser entregado una vez todas las edades hayan sido calculadas.
+Debes aplicar:
+Una versión con callbacks
+Una versión con promesas
+Una versión con async/await
+La lógica del cálculo de edad debe ser reutilizable entre las versiones.
