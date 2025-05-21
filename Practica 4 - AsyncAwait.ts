@@ -11,7 +11,7 @@ const listaPersonas: Persona[] = [{nombre: "Juan", fechaNacimiento: new Date("19
     {nombre: "Carlos", fechaNacimiento: new Date("1980-11-11")}, 
     {nombre: "Sofia", fechaNacimiento: new Date("1998-08-08")}, 
     {nombre: "Javier", fechaNacimiento: new Date("1993-04-04")}, 
-    {nombre: "Clara", fechaNacimiento: new Date("1987-09-09")}]; ;
+    {nombre: "Clara", fechaNacimiento: new Date("1988-09-09")}]; ;
 
 async function calculoEdades(listaPersonas: Persona[]): Promise<{ nombre: string, edad: number }[]> {
             try {
